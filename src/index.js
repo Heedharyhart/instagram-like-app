@@ -7,7 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename='/Instagram-like-app-React.js'>
+    <BrowserRouter basename='/instagram-like-app'>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
