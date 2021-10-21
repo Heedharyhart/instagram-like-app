@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Router, Route } from 'react-router';
+import Login from './pages/login/Login';
+import Home from './pages/Home/Home';
+import React, { Component } from 'react';
+import NoMatch from './pages/404Pages/404Page';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  state={
+    isLog:false 
+  }
+
+  handleLogin = (isLog) => {this.setState({isLog})
+}
+
+
+
+   render(){
+
+    const {isLog} = this.state;
+    return (
+      <div className="App">
+        <Switch>
+          {
+            !isLog ? 
+            <Route exact path='/'render={()=><Login isLogin={this.handleLogin}/>}/>
+            :
+            <Route path='/' render={()=><Home handleLogged={this.handleLogin}/>}/>
+          }
+          
+          <Route path='*' component={NoMatch}/>
+        </Switch>
+      </div>
+    );
+    
+  }
 }
 
 export default App;
