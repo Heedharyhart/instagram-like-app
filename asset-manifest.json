@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github.io/instagram-like-app.git/static/css/main.abfc5203.chunk.css",
+    "main.js": "/github.io/instagram-like-app.git/static/js/main.d96071fc.chunk.js",
+    "main.js.map": "/github.io/instagram-like-app.git/static/js/main.d96071fc.chunk.js.map",
+    "runtime-main.js": "/github.io/instagram-like-app.git/static/js/runtime-main.a4134dff.js",
+    "runtime-main.js.map": "/github.io/instagram-like-app.git/static/js/runtime-main.a4134dff.js.map",
+    "static/js/2.cd780eb6.chunk.js": "/github.io/instagram-like-app.git/static/js/2.cd780eb6.chunk.js",
+    "static/js/2.cd780eb6.chunk.js.map": "/github.io/instagram-like-app.git/static/js/2.cd780eb6.chunk.js.map",
+    "index.html": "/github.io/instagram-like-app.git/index.html",
+    "static/css/main.abfc5203.chunk.css.map": "/github.io/instagram-like-app.git/static/css/main.abfc5203.chunk.css.map",
+    "static/js/2.cd780eb6.chunk.js.LICENSE.txt": "/github.io/instagram-like-app.git/static/js/2.cd780eb6.chunk.js.LICENSE.txt",
+    "static/media/explore.47b2ee6c.svg": "/github.io/instagram-like-app.git/static/media/explore.47b2ee6c.svg",
+    "static/media/home.a8207812.svg": "/github.io/instagram-like-app.git/static/media/home.a8207812.svg",
+    "static/media/instagram.8a47bbe2.svg": "/github.io/instagram-like-app.git/static/media/instagram.8a47bbe2.svg",
+    "static/media/user.b8aee714.svg": "/github.io/instagram-like-app.git/static/media/user.b8aee714.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4134dff.js",
+    "static/js/2.cd780eb6.chunk.js",
+    "static/css/main.abfc5203.chunk.css",
+    "static/js/main.d96071fc.chunk.js"
+  ]
+}
