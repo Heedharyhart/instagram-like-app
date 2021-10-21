@@ -10,7 +10,7 @@ const Home = ({handleLogged}) => {
         <div>
         <Header isLogged={handleLogged}/>
          <Switch>
-            <Route exact path="/http://Heedharyhart/github.io/instagram-like-app" component={NewHome}/>
+            <Route exact path="/instagram-like-app" component={NewHome}/>
             <Route exact path="/explore" component={Explore}/>
             <Route exact path="/:username" component={Profile}/>
 
